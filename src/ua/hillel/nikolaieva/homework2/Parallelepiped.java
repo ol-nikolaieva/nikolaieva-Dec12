@@ -18,7 +18,7 @@ public class Parallelepiped {
         int volume = a * b * c;
         int length = a + b + c;
 
-        System.out.println( "Обʼєм паралелепіпеда = " + volume + " см");
+        System.out.println( "Обʼєм паралелепіпеда = " + volume + " см^3");
         System.out.println( "Довжина сторін = " + length + " см");
         in.close();
     }

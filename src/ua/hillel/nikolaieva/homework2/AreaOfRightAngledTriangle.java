@@ -14,7 +14,7 @@ public class AreaOfRightAngledTriangle {
 
         float S = a * b / 2;
 
-        System.out.println( "Площа прямокутного трикутника зі сторонами " + a + " см та " + b + " см складає " + S + " см");
+        System.out.println( "Площа прямокутного трикутника зі сторонами " + a + " см та " + b + " см складає " + S + " см^2");
         in.close();
     }
 
