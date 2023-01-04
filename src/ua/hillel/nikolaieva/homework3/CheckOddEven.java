@@ -11,12 +11,12 @@ public class CheckOddEven {
             System.out.println("Please enter a number:");
             int number = in.nextInt();
 
-            System.out.println(getNumber(number));
+            checkOddEven(number);
 
             in.close();
     }
 
-    public static String getNumber (int number) {
+    public static void checkOddEven (int number) {
 
         if (number % 2 == 0){
             System.out.println("Even Number");
@@ -24,6 +24,6 @@ public class CheckOddEven {
         else {
             System.out.println("Odd Number");
         }
-        return "BYE!";
+        System.out.println("BYE!");
     }
 }
