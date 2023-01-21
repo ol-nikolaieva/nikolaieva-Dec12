@@ -6,7 +6,7 @@ public class Introvert extends Person {
     }
     @Override
     public String call() {
-      return "Наразі абонент "  + firstName + " "  + lastName + " не може прийняти ваш дзвінок. Зателефонуйте пізніше, а краще ніколи";
+      return "Наразі абонент "  + firstName + " "  + lastName + " не може прийняти ваш дзвінок. Зателефонуйте пізніше.";
     }
 
 }

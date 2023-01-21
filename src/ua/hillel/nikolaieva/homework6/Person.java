@@ -2,10 +2,10 @@ package ua.hillel.nikolaieva.homework6;
 
 public class Person implements Callable {
 
-    String firstName;
-    String lastName;
-    String city;
-    String phoneNumber;
+    protected String firstName;
+    protected String lastName;
+    protected String city;
+    protected String phoneNumber;
 
     public Person (String firstName, String lastName, String city, String phoneNumber) {
 
@@ -15,6 +15,7 @@ public class Person implements Callable {
         this.phoneNumber = phoneNumber;
     }
 
+    @Override
     public String call () {
         return "Зателефонувати громадянину " + firstName + " "  + lastName + " з міста " + city + " можна за номером "  + phoneNumber;
     }
