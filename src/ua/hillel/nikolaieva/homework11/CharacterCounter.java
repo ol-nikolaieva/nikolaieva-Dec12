@@ -20,9 +20,7 @@ public class CharacterCounter {
         }
     }
 
-    public void printCharacterCount() {
-        for (Map.Entry<Character, Integer> entry : characterCount.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
-        }
+    public Map<Character, Integer> getCharacterCount() {
+        return characterCount;
     }
 }
